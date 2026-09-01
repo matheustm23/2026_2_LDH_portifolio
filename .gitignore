@@ -1,0 +1,23 @@
+# Backups
+*.bak
+
+# Quartus - cache e banco de dados
+db/
+incremental_db/
+*.qws
+*.qdf
+
+# Simulação / ModelSim
+simulation/
+*.data
+*.mod
+*.ibs
+*.cnf.cdb
+*.cmp.kpt
+
+# Outros gerados pelo Quartus
+qar_info.json
+comb_calc_partition_pins.json
+
+# Pasta de saída da compilação (Quartus)
+output_files/
